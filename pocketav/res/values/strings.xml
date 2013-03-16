@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">女优大百科</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_init">女优大百科</string>
+	<string name="search_button">女优列表</string>
+	<string name="name_text">女优姓名</string>
+	<string name="appcode">56OJz1H4uMiaSnPLce</string><!-- 56OJz1H4uMiaSnPLce -->
+</resources>

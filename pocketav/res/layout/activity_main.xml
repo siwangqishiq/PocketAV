@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg" >
+
+    <RelativeLayout
+        android:id="@+id/mainAdContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/mainAdContainer" >
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/banner" />
+
+        <Button
+            android:id="@+id/preButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/preview" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/next" />
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/banner"
+            android:src="@drawable/yua" />
+        <Button 
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:textSize="13dp"
+            android:padding="6dp"
+            android:background="@drawable/button_style"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/search_button"
+            android:textColor="#000000"
+            />
+
+        <ScrollView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/banner"
+            android:padding="7dp" >
+
+            <TextView
+                android:id="@+id/main_text_info"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:singleLine="false"
+                android:text="姓名:苍井空\n职业：av女优\n三围:70,40,70"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photo"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="35dp" >
+
+            <TextView
+                android:id="@+id/main_text_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="曾获奖项: 
+2005 Videoboy年度女优赏第四位 　　
+2005 Videoboy 艳技赏第一位 　　
+2004 Videoboy nicebody大赏 　　
+2004 Xcity 优秀女优赏第三位 　　
+2004 Xcity 最优秀新人赏 　　
+2004 Xcity 优秀body赏第二位 　　
+属莲花东京公司。
+爱好油画，专长是打网球。2005 Videoboy年度女优赏第四位 　　
+2005 Videoboy 艳技赏第一位 　　
+2004 Videoboy nicebody大赏 　　
+2004 Xcity 优秀女优赏第三位 　　
+2004 Xcity 最优秀新人赏 　　
+2004 Xcity 优秀body赏第二位 　　
+属莲花东京公司。
+爱好油画，专长是打网球。2005 Videoboy年度女优赏第四位 　　
+2005 Videoboy 艳技赏第一位 　　
+2004 Videoboy nicebody大赏 　　
+2004 Xcity 优秀女优赏第三位 　　
+2004 Xcity 最优秀新人赏 　　
+2004 Xcity 优秀body赏第二位 　　
+属莲花东京公司。
+爱好油画，专长是打网球。2005 Videoboy年度女优赏第四位 　　
+2005 Videoboy 艳技赏第一位 　　
+2004 Videoboy nicebody大赏 　　
+2004 Xcity 优秀女优赏第三位 　　
+2004 Xcity 最优秀新人赏 　　
+2004 Xcity 优秀body赏第二位 　　
+属莲花东京公司。
+爱好油画，专长是打网球。"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

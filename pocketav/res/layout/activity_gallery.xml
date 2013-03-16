@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <RelativeLayout
+        android:id="@+id/galleryAdContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/galleryAdContainer" >
+		<Gallery 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/gallery"
+		    android:spacing="30dp"
+		    />	        
+    </RelativeLayout>
+
+</RelativeLayout>
